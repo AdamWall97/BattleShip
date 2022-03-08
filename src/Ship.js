@@ -1,4 +1,4 @@
-const projectFactory = (length) => {
+const shipFactory = (length) => {
 
     var hitChart = Array(length).fill("");
     var isSunk = false;
