@@ -1,6 +1,6 @@
 const shipFactory = (length) => {
 
-    var hitChart = Array(length).fill("");
+    const hitChart = Array(length).fill("");
     var isSunk = false;
 
     const getLength = () => length;
